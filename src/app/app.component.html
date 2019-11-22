@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <app-create-update></app-create-update>
+</div>
+<div class="container">
+  <table class="table table-trapped">
+    <thead>
+      <tr>
+        <th>EmployeeName</th>
+        <th>Experience</th>
+      </tr>
+    </thead>
+    <tbody>
+     <tr bgcolor=" lg blue">
+       <td>sandeep</td>
+       <td>3years</td>
+     </tr>
+     <tr bgcolor="cream">
+        <td>Akash</td>
+        <td>8years</td>
+      </tr>
+      <tr bgcolor=" purple">
+          <td>Rajan</td>
+          <td>13years</td>
+        </tr>
+        <td><button class="btn btn-primary" (click)="getCurrentUser(data)">Edit</button></td>
+        <td><button class="btn btn-primary" (click)="getCurrentUsernew(data)">Delete</button></td>
+    </tbody>
+  </table>
+  <td><button class="btn btn-primary" (click)="getCurrentUser(data)">+ Add Employee</button></td>
+</div>
